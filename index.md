@@ -31,7 +31,7 @@ My GitHub page is https://github.com/seanc127.
 
     Lab 4, part 2 was something I thought was fun as it was the first semi-interactive program we did. How it worked was the second person would guess the first person's number and with if values you would be told if the number you put was too high or too low. In this lab many new concepts were used such as the comparison operators and else if statements. Overall I think the learning objective was to develop our use of conditional statements while also showing us the use on how we can incorporate messages into our code. Instead of writing the standard error message for the wrong value, we wrote hints for this lab due to it being a game essentially. 
 
-    Example of a hint which would be given. This hint would be given if the second user guessed a number too high.
+    Example of the code where a hint would be given. The hint "Too high" would be given if the first guess was bigger then than the secret number.
     ```
     if (first_guess > secret_number) {
     std::cout << "Too high\n";
